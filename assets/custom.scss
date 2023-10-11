@@ -1,0 +1,11 @@
+$semantic-root-element: '#__nuxt';
+
+$breakpoints: (
+  xs: 0,
+  sm: 'null',
+  md: 'null',
+  lg: 320px,
+  xl: 'null',
+) !default;
+
+@import '@picocss/pico/scss/pico';
