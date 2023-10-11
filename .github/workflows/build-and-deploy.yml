@@ -1,5 +1,8 @@
 name: Build and Deploy
 on:
+  # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
+  workflow_dispatch:
+
   push:
     branches:
       - main
